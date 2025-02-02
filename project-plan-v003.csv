@@ -1,0 +1,17 @@
+taskID,task,predecessorTaskIDs,bestCaseHours,expectedHours,worstCaseHours,projectManager,frontendDeveloper,backendDeveloper,dataScientist,dataEngineer
+A,Describe product,,8,12,20,1,0,0,2,0
+B,Develop marketing strategy,,12,18,30,1,0,0,2,0
+C,Design brochure,A,10,15,25,1,2,0,0,0
+D,Develop product  prototype,,,,,,,,,
+D1,    Requirements analysis,A,16,24,40,1,0,2,2,2
+D2,    Software design,D1,20,30,50,1,2,2,0,2
+D3,    System design,D1,20,30,50,1,0,2,0,2
+D4,    Coding,"D2, D3",40,60,100,1,2,2,0,0
+D5,    Write documentation,D4,12,18,30,1,0,0,0,0
+D6,    Unit testing,D4,16,24,40,1,2,2,0,0
+D7,    System testing,D6,24,36,60,1,2,2,0,0
+D8,    Package deliverables,"D5, D7",10,15,25,1,0,0,0,0
+E,Survey potential market,"B, C",16,24,40,1,0,0,2,0
+F,Develop pricing plan,"D8, E",12,18,30,1,0,0,2,0
+G,Develop implementation  plan,"A, D8",20,30,50,1,0,0,0,0
+H,Write client proposal,"F, G",10,15,25,1,0,0,0,0

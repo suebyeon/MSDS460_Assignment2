@@ -1,0 +1,115 @@
+-----------------------------
+Critical Path time for Best-case:
+DescribeProduct starts at time 0
+DevelopMarketingStrategy starts at time 0
+WriteClientProposal ends at 164.0 hours in duration
+
+Solution variable values for Best-case:
+End_Coding = 84.0
+End_DescribeProduct = 8.0
+End_DesignBrochure = 18.0
+End_DevelopImplementationPlan = 154.0
+End_DevelopMarketingStrategy = 12.0
+End_DevelopPricingPlan = 146.0
+End_PackageDeliverables = 134.0
+End_RequirementsAnalysis = 24.0
+End_SoftwareDesign = 44.0
+End_SurveyPotentialMarket = 34.0
+End_SystemDesign = 44.0
+End_SystemTesting = 124.0
+End_UnitTesting = 100.0
+End_WriteClientProposal = 164.0
+End_WriteDocumentation = 96.0
+Start_Coding = 44.0
+Start_DescribeProduct = 0.0
+Start_DesignBrochure = 8.0
+Start_DevelopImplementationPlan = 134.0
+Start_DevelopMarketingStrategy = 0.0
+Start_DevelopPricingPlan = 134.0
+Start_PackageDeliverables = 124.0
+Start_RequirementsAnalysis = 8.0
+Start_SoftwareDesign = 24.0
+Start_SurveyPotentialMarket = 18.0
+Start_SystemDesign = 24.0
+Start_SystemTesting = 100.0
+Start_UnitTesting = 84.0
+Start_WriteClientProposal = 154.0
+Start_WriteDocumentation = 84.0
+-----------------------------
+Critical Path time for expected case:
+DescribeProduct starts at time 0
+DevelopMarketingStrategy starts at time 0
+WriteClientProposal ends at 246.0 hours in duration
+
+Solution variable values for expected case:
+End_Coding = 126.0
+End_DescribeProduct = 12.0
+End_DesignBrochure = 27.0
+End_DevelopImplementationPlan = 231.0
+End_DevelopMarketingStrategy = 18.0
+End_DevelopPricingPlan = 219.0
+End_PackageDeliverables = 201.0
+End_RequirementsAnalysis = 36.0
+End_SoftwareDesign = 66.0
+End_SurveyPotentialMarket = 51.0
+End_SystemDesign = 66.0
+End_SystemTesting = 186.0
+End_UnitTesting = 150.0
+End_WriteClientProposal = 246.0
+End_WriteDocumentation = 144.0
+Start_Coding = 66.0
+Start_DescribeProduct = 0.0
+Start_DesignBrochure = 12.0
+Start_DevelopImplementationPlan = 201.0
+Start_DevelopMarketingStrategy = 0.0
+Start_DevelopPricingPlan = 201.0
+Start_PackageDeliverables = 186.0
+Start_RequirementsAnalysis = 12.0
+Start_SoftwareDesign = 36.0
+Start_SurveyPotentialMarket = 27.0
+Start_SystemDesign = 36.0
+Start_SystemTesting = 150.0
+Start_UnitTesting = 126.0
+Start_WriteClientProposal = 231.0
+Start_WriteDocumentation = 126.0
+-----------------------------
+Critical Path time for worst case:
+DescribeProduct starts at time 0
+DevelopMarketingStrategy starts at time 0
+WriteClientProposal ends at 410.0 hours in duration
+
+Solution variable values for worst case:
+End_Coding = 210.0
+End_DescribeProduct = 20.0
+End_DesignBrochure = 45.0
+End_DevelopImplementationPlan = 385.0
+End_DevelopMarketingStrategy = 30.0
+End_DevelopPricingPlan = 365.0
+End_PackageDeliverables = 335.0
+End_RequirementsAnalysis = 60.0
+End_SoftwareDesign = 110.0
+End_SurveyPotentialMarket = 85.0
+End_SystemDesign = 110.0
+End_SystemTesting = 310.0
+End_UnitTesting = 250.0
+End_WriteClientProposal = 410.0
+End_WriteDocumentation = 240.0
+Start_Coding = 110.0
+Start_DescribeProduct = 0.0
+Start_DesignBrochure = 20.0
+Start_DevelopImplementationPlan = 335.0
+Start_DevelopMarketingStrategy = 0.0
+Start_DevelopPricingPlan = 335.0
+Start_PackageDeliverables = 310.0
+Start_RequirementsAnalysis = 20.0
+Start_SoftwareDesign = 60.0
+Start_SurveyPotentialMarket = 45.0
+Start_SystemDesign = 60.0
+Start_SystemTesting = 250.0
+Start_UnitTesting = 210.0
+Start_WriteClientProposal = 385.0
+Start_WriteDocumentation = 210.0
+Critical Path (Best Case): ['DescribeProduct', 'RequirementsAnalysis', 'SoftwareDesign', 'Coding', 'UnitTesting', 'SystemTesting', 'PackageDeliverables', 'DevelopImplementationPlan', 'WriteClientProposal'] - Duration: 164
+Critical Path (Expected Case): ['DescribeProduct', 'RequirementsAnalysis', 'SoftwareDesign', 'Coding', 'UnitTesting', 'SystemTesting', 'PackageDeliverables', 'DevelopImplementationPlan', 'WriteClientProposal'] - Duration: 246
+Critical Path (Worst Case): ['DescribeProduct', 'RequirementsAnalysis', 'SoftwareDesign', 'Coding', 'UnitTesting', 'SystemTesting', 'PackageDeliverables', 'DevelopImplementationPlan', 'WriteClientProposal'] - Duration: 410
+
